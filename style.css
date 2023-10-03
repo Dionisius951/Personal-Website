@@ -43,22 +43,25 @@ nav li {
   list-style: none;
   padding: 10px;
 }
+
 .hero{
   display: flex;
   width: 100%;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
+  /* padding: 50px; */
 }
 
 .hero-text{
-  width: 800px;
+  width: 750px;
   height: 350px;
   font-size: 16px;
   padding: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-left: 50px;
+  /* margin-left: 50px; */
+  /* background-color: red; */
 }
 
 .text p {
@@ -74,20 +77,34 @@ nav li {
   border-radius: 8px;
   padding: 10px;
   border: none;
-  background-color: blue;
+  background-color: #1E6FD9;
   color: white;
   font-size: 16px;
 }
 
 .hero-img{
-  width: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 450px;
   height: 500px;
   font-size: 16px;
-  padding: 50px;
+  padding: 30px;
+  position: relative;
+  /* background-color: blue; */
 }
 
 .hero-text h2{
   font-size: 64px;
   font-weight: bolder;
 }
+.hero-img img{
+  width: 700px;
+  height: 450px;
+  z-index: 999;
+}
 
+.blob{
+  position: absolute;
+  top: 150px;
+}
