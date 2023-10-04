@@ -10,10 +10,8 @@ nav {
   align-items: center;
   width: 100%;
   box-shadow: 2px 1px 10px grey;
-  /* background-color: aqua; */
-  /* z-index: 9999; */
   padding: 12px;
-  font-size: 20px;
+  font-size:18px;
 }
 
 .menu_bar {
@@ -29,6 +27,7 @@ nav {
 .menu_bar ul li > a:hover {
   text-decoration: none;
   color: #0460d9;
+  transition: 0.5ms;
 }
 
 .menu_bar > ul {
@@ -42,6 +41,11 @@ nav {
 nav li {
   list-style: none;
   padding: 10px;
+}
+
+.menu_bar .active{
+  color: #0460d9;
+  font-size: 20px;
 }
 
 .hero{
@@ -77,6 +81,8 @@ nav li {
   padding: 10px;
   border: none;
   background-color: #1E6FD9;
+  color: white;
+  font-size: 18px;
 }
 
 .hero-img{
@@ -103,10 +109,67 @@ nav li {
 
 .btn-hero a{
   text-decoration: none;
-  color: white;
-  font-size: 16px;
+
 }
 .blob{
   position: absolute;
   top: 150px;
+}
+
+/* CSS ABOUT PAGE */
+.hero-about{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 650px;
+  /* background-color: blue; */
+}
+.hero-text_about{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 500px;
+  /* background-color: red; */
+  padding: 50px;
+}
+
+.text-about{
+  width: 650px;
+  padding: 50px;
+  margin-bottom: 150px;
+}
+
+.header_about{
+  /* font-weight: normal; */
+  font-size: 24px;
+}
+
+.header_name{
+  font-size: 36px;
+}
+.hero-img_about{
+  position: relative;
+}
+
+.hero-img_about .img1{
+  width: 500px ;
+  height: 500px;
+  border-top-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+}
+.skill{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 400px;
+}
+
+.p1{
+  margin-top: 10px;
+}
+.p2{
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
