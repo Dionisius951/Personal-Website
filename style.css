@@ -68,6 +68,7 @@ nav li {
   align-items: center;
   justify-content: center;
   margin-top: 50px;
+  margin-left: 50px;
 }
 
 .text p {
@@ -109,7 +110,7 @@ nav li {
 
 .hero-text h3{
   font-size: 40px;
-  color: #2484BF;
+  color: #0b50ab;
   /* font-weight: bolder; */
 }
 
@@ -181,7 +182,7 @@ nav li {
 }
 
 .header_about{
-  font-size: 24px;
+  font-size: 32px;
   color: #0b50ab;
 }
 
@@ -197,7 +198,7 @@ nav li {
   height: 450px;
   border-top-left-radius: 100px;
   border-bottom-right-radius: 100px;
-  margin-bottom: 350px;
+  margin-bottom: 400px;
 }
 .skill{
   display: flex;
@@ -314,6 +315,71 @@ nav li {
   padding: 2px;
 }
 
+/* PORTOFOLIO PAGES */
+.portofolio-container{
+  width: 100%;
+  display: grid;
+  grid-template-columns: 0.5fr 0.5fr 0.5fr;
+  grid-template-rows: auto;
+}
 
+.portofolio-card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 400px;
+  height: 400px;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin:auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.portofolio-card img{
+  width: 350px;
+}
+
+.portofolio-info{
+  width: 370px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  /* background-color: red; */
+}
+
+.portofolio-info h3{
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+.featured{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.featured span{
+  border: 1px solid rgb(172, 172, 172);
+  padding: 4px;
+  border-radius: 4px;
+  margin-right: 5px;
+}
+
+.portofolio-description{
+  text-align: justify;
+  width: 100%;
+}
+
+.main-pt{
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+}
+
+.main-pt h2{
+  text-align: center;
+  font-size: 48px;
+  margin-top: 20px;
+  color: #0b50ab;
+}
 
 
