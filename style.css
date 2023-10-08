@@ -392,13 +392,11 @@ nav li {
   border: none;
   cursor: pointer;
   background-color: #0b50ab;
-}
-
-.btn-art a{
   color: white;
   text-decoration: none;
   font-size: 14px;
 }
+
 .article-container{
   width: 100%;
   display: grid;
@@ -460,16 +458,23 @@ nav li {
 .article-container_1 h1{
   font-size: 32px;
   color: #0b50ab;
+  margin-bottom: 10px;
 }
 
 .article-container_1 h3{
   font-size: 24px;
   color: #0b50ab;
+  margin-bottom: 20px;
 }
 
 .article-container_1 ul, ol{
   padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
+
+
 
 .section{
   padding: 20px;
