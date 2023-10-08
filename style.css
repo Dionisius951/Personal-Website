@@ -382,4 +382,95 @@ nav li {
   color: #0b50ab;
 }
 
+/* ARTICLE PAGE */
+.btn-art{
+  width: 150px;
+  height: 35px;
+  padding: 5px;
+  margin-top: 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  background-color: #0b50ab;
+}
 
+.btn-art a{
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+}
+.article-container{
+  width: 100%;
+  display: grid;
+  grid-template-columns: 0.5fr 0.5fr 0.5fr;
+  grid-template-rows: auto;
+}
+
+.article-card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 400px;
+  height: auto;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin:auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.article-card img{
+  /* width: 150px; */
+  height: 200px;
+}
+
+.article-info{
+  width: 370px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  /* background-color: red; */
+}
+
+.article-info h3{
+  font-size: 20px;
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+
+.article-description{
+  text-align: justify;
+  width: 100%;
+}
+
+.article-card img{
+  width: 400px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.article-container_1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  gap: 10px;
+}
+.article-container_1 h1{
+  font-size: 32px;
+  color: #0b50ab;
+}
+
+.article-container_1 h3{
+  font-size: 24px;
+  color: #0b50ab;
+}
+
+.article-container_1 ul, ol{
+  padding-left: 20px;
+}
+
+.section{
+  padding: 20px;
+}
